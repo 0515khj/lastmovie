@@ -73,18 +73,17 @@
     }
 
     strong {  width: 90%;  color: blueviolet; position: relative;
-        button { background: none; margin-right: 5px; border: none; cursor: pointer;}
-        button::after {
-            content: '';
-            display: block;
-            width: 1px;
-            height: 13px;
-            background: #000;
-            position: absolute; top: 50%; right: 74%;
-            transform: translateY(-50%);
-        }    
+        button { background: none; margin-right: 5px;  cursor: pointer;}
     }
     strong:first-child {margin-left: 35px;}
-   
+    
 }
 }
+input[type='date'] {
+    width: 86%;
+    padding: 10px;
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }

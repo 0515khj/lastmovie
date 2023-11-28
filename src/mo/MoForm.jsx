@@ -24,7 +24,7 @@ const MoForm = ({onSubmit,Mo,cp,ref,edit}) => {
                 </p>
                 <p>
                     <label htmlFor="">개봉일</label>
-                    <input type="number" value={date} name="date" onChange={cp} ref={ref}
+                    <input type="date" value={date} name="date" onChange={cp} ref={ref}
                     placeholder="2023-11-28" />
                 </p>
                 <p>

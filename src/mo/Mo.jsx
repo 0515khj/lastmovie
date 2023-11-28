@@ -9,7 +9,7 @@ const Mo = () => {
     const [data , setData]=useState([])
     const [edit , setEdit] = useState(false)
     const [ Mo , setMo]=useState({
-        genre:'' , date:'', name:'',actor:''
+        genre:'' , date:0, name:'',actor:''
     })
     const no = useRef(1)
     const ref = useRef()
@@ -37,7 +37,7 @@ const Mo = () => {
             Mo.id = no.current++
             setData([...data,Mo])
         }
-        setMo({genre:'' , date:'', name:'',actor:''})
+        setMo({genre:'' , date:0, name:'',actor:''})
             ref.current.focus();
            
     }
